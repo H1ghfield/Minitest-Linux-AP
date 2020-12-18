@@ -5,8 +5,7 @@ Small bash script we had to make for a test
 <p>First we had to clear the terminal/console with a command and show a menu where the user can choose between 3 options.</p>
 a) Create a file<br>
 b) Check if a file exists<br>
-c) Remove a file<br><br>
-<p>And ask the user which option they would like to use</p>
+c) Remove a file<br>
 
 ``` shell
 #!/bin/bash
@@ -21,6 +20,8 @@ read -p "Geef de letter in van u keuze> " keuze
 ```
 
 <h2>Part "a"</h2>
+<p>User has to provide the name of the file they would like to create and a number. The number provided by the user represents how many files are being created. Example user inputs 4, 4 files are create as following: file0.txt file1.txt ... file3.txt</p>
+
 ``` shell
 teller=0
 
