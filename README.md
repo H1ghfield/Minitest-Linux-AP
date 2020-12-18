@@ -1,6 +1,5 @@
 # Minitest #1 Linux - AP Hogeschool Elektronica-ICT
 Small bash script we had to make for a test
-<h1>What did we have to make?</h1>
 
 <h1>The script</h1>
 First we had to clear the terminal/console with a command and show a menu where the user can choose between 3 options.
