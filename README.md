@@ -4,7 +4,7 @@ Small bash script we had to make for a test
 
 <h1>The script</h1>
 
-```
+``` shell
 #!/bin/bash
 
 clear
