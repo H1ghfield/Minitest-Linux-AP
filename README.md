@@ -3,6 +3,7 @@ Small bash script we had to make for a test
 <h1>What did we have to make?</h1>
 
 <h1>The script</h1>
+
 ```
 #!/bin/bash
 
@@ -13,7 +14,6 @@ echo "b) bestand checken"
 echo "c) bestand wissen"
 
 read -p "Geef de letter in van u keuze> " keuze
-```
 
 teller=0
 
@@ -52,4 +52,4 @@ if [ $keuze = "c" ]; then
 	rm $removefile
 	echo "Bestand gewist"
 fi
-</code>
+```
