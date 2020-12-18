@@ -5,7 +5,7 @@ Small bash script we had to make for a test
 <p>First we had to clear the terminal/console with a command and show a menu where the user can choose between 3 options.</p>
 a) Create a file<br>
 b) Check if a file exists<br>
-c) Remove a file<br>
+c) Remove a file<br><br>
 
 ``` shell
 #!/bin/bash
@@ -19,8 +19,11 @@ echo "c) bestand wissen"
 read -p "Geef de letter in van u keuze> " keuze
 ```
 
+<br>
+
 <h2>Part "a"</h2>
-<p>User has to provide the name of the file they would like to create and a number. The number provided by the user represents how many files are being created. Example user inputs 4, 4 files are create as following: file0.txt file1.txt ... file3.txt</p>
+<p>If the user chooses option "a"</p>
+<p>User has to provide the name of the file they would like to create and a number. The number provided by the user represents how many files are being created. Example user inputs 4, 4 files are create as following: file0.txt file1.txt ... file3.txt</p><br>
 
 ``` shell
 teller=0
@@ -38,7 +41,13 @@ if [ $keuze = "a" ]; then
 	echo "$teller Bestand(en) aangemaakt"
 fi
 ```
+
+<br>
+
 <h2>Part "b"</h2>
+<p>If the user chooses option "b"</p>
+<p>User provides the full path of the directory they would like to check a file in. A command shows what files and directories there are in the provided path. User inputs the filename and gets the output if it exists or not.</p><br>
+
 ``` shell
 if [ $keuze = "b" ]; then
 	clear
@@ -53,7 +62,13 @@ if [ $keuze = "b" ]; then
 	fi
 fi
 ```
+
+<br>
+
 <h2>Part "c"</h2>
+<p>If the user chooses option "c"</p>
+<p>User provides the full path of the directory they would like to remove a file from. A command shows what files and directories there are in the provided path. User inputs the filename and the script removes the file and show a message that the file was removed.</p><br>
+
 ``` shell
 if [ $keuze = "c" ]; then
 	clear
