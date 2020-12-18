@@ -3,11 +3,9 @@ Small bash script we had to make for a test
 
 <h1>The script</h1>
 First we had to clear the terminal/console with a command and show a menu where the user can choose between 3 options.
-
-a) Create a file
-b) Check if a file exists
-c) Remove a file
-
+a) Create a file<br>
+b) Check if a file exists<br>
+c) Remove a file<br>
 And ask the user which option they would like to use.
 ``` shell
 #!/bin/bash
