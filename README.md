@@ -6,7 +6,8 @@ Small bash script we had to make for a test
 a) Create a file<br>
 b) Check if a file exists<br>
 c) Remove a file<br>
-<p>And ask the user which option they would like to use.</p>
+<p>And ask the user which option they would like to use</p>
+
 ``` shell
 #!/bin/bash
 
